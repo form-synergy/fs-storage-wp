@@ -1,0 +1,29 @@
+{
+    "name": "form-synergy/fs-storage-wp",
+    "description": "This package enables storing, updating, and retrieving stored data using WordPress options API.",
+    "keywords": [
+        "form",
+        "synergy",
+        "package",
+        "api storage",
+        "option storage",
+        "wordpress",
+        "wp"
+    ],
+    "homepage": "https://formsynergy.com/",
+    "license": "MIT",
+    "authors": [{
+        "name": "Joseph G Chamoun",
+        "email": "formsynergy@gmail.com",
+        "homepage": "https://github.com/form-synergy"
+    }],
+    "require": {
+        "php": ">=7.0"
+    },
+    "replace": {
+        "form-synergy/fs-storage": "self.version"
+    },
+    "autoload": {
+        "files": ["src/file-storage.php"]
+    }
+} 
